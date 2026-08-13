@@ -1,3 +1,5 @@
+import aparnaAuraImg from '../assets/images/image.png';
+
 export const projects = [
   {
     id: "aparna-aura",
@@ -8,9 +10,9 @@ export const projects = [
     technologies: ["React", "Django", "Django REST Framework", "PostgreSQL", "Tailwind CSS", "JWT Authentication", "Vercel", "Render", "Supabase"],
     features: ["User Authentication", "Google Login", "Product Management", "Categories", "Cart System", "Wishlist", "Order Management", "Payment Integration", "Address Management", "Responsive Design", "Admin Dashboard"],
     challenges: ["CSP restrictions", "Google OAuth origin mismatch", "CORS configuration", "JWT authentication flow", "PostgreSQL connectivity"],
-    image: "", // Placeholder for image
-    githubUrl: "#", // Add your github url here
-    liveUrl: "#", // Add your live url here
+    image: aparnaAuraImg,
+    githubUrl: "#",
+    liveUrl: "https://aparna-aura.vercel.app/",
     status: "completed"
   },
   {
